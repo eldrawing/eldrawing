@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	font-family:'Poiret One', cursive;
+	background-image: url("LopezPamImages/diagonal-striped-brick.png"); 
+	background-color: #FFFFFF;
+}
+h1 {
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 30px;
+	width: 500px;
+	height: 50px;
+	background-color: #FFFFFF;
+	width: 445px;
+	padding-left: 45px; 
+}
+h2 { 
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 20px; 
+	width: 190px;
+	height: 80px;
+	border: double;
+	border-color: #16AA92; 
+	color: #025144;
+	font-size: 70px;
+}
+a {
+	color: #025144;
+	font-family:'Poiret One', cursive;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 40px; 
+}
+p {
+	font-size: 20px; 
+}
+a:hover { 
+	background-color: #16AA92;
+	opacity: 0.7;
+	transition: all 4s;
+	margin-left: 30px;
+}
+content { 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+div { 
+	margin-left: 10px;
+	margin-right: 10px;
+}
+content { 
+	display: flex;
+	flex-direction: row; 
+	justify-content: flex-start; 
+	padding-top: 50px;
+} 
+#instagram { 
+	width: 75px; 
+}
+#facebook { 
+	width: 51px;
+} 
+#twitter { 
+	width: 55px;
+	padding-left: 15px;
+}
+#youtube { 
+	width: 62px;
+	padding-left: 15px;
+}
